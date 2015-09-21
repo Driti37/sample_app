@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -44,6 +44,7 @@ gem 'listen', '~> 3.0'
 group :development, :test do
  gem 'sqlite3' 
  gem 'rspec-rails', '2.9.0'
+ gem 'annotate', '~>2.4.1.beta'
 end 
 
 group :test do
@@ -55,3 +56,6 @@ group :production do
 end
 
 gem 'bootstrap-sass', '2.0.0'
+
+gem 'protected_attributes'
+
