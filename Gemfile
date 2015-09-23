@@ -49,6 +49,7 @@ end
 
 group :test do
  gem 'capybara', '1.1.2'
+ gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
@@ -58,4 +59,3 @@ end
 gem 'bootstrap-sass', '2.0.0'
 
 gem 'protected_attributes'
-
