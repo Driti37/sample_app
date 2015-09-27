@@ -61,3 +61,9 @@ end
 gem 'bootstrap-sass', '2.0.0'
 
 gem 'protected_attributes'
+
+gem 'faker', '1.0.1'
+
+gem 'will_paginate', '3.0.5'
+gem 'bootstrap-will_paginate', '0.0.6'
+
