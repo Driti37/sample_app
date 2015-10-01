@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  match '/signout', to: 'sessions#destroy', :via => [:get]
+  match '/signout', to: 'sessions#destroy', :via => [:delete]
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :microposts, only: [:create, :destroy]
 
   root to: 'static_pages#home'
 
